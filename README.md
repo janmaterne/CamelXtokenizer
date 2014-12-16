@@ -11,8 +11,8 @@ Having a wrong implementation could result in invalid xml after the split. This 
 shows that.
 
 For easier use you could start it directly via
-  mvn test
+  ```mvn test```
 which generates the error. A start with
-  mvn test -Pwoodstox
-will use the Woodstox StAX implementation, which is a valid one. So here the test pass.    
+  ```mvn test -Pwoodstox```
+will use the Woodstox StAX implementation, which is a valid one. So here the test pass.     
  
